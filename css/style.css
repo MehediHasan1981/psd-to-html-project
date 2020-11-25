@@ -1,0 +1,377 @@
+/* start universal setup */
+* {
+   font-size: 10px;
+   margin: 0;
+   padding: 0;
+}
+/* end universal setup */
+/* start basic setup */
+body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   width: 80%;
+   margin-left: 12%;
+   margin-right: 8%;
+   color: rgb(97, 119, 119);
+   overflow: hidden;
+}
+/* end basic setup */
+
+header {
+   margin-top: 1%;
+}
+/* start logo img */
+.logo img {
+   width: 5.5rem;
+   height: 3.5rem;
+   border: 15px Solid red;
+   border-radius: 50%;
+   float: left;
+   display: inline;
+   padding: 5px;
+   margin-bottom: 30px;
+}
+
+
+.logo h1 {
+   font-size: 2rem;
+   float: left;
+   margin-left: 1%;
+   text-transform: capitalize;
+   margin-top: 15px;
+}
+
+.logo h1 b {
+   letter-spacing: 0.3rem;
+   font-size: 2rem;
+   text-transform: uppercase;
+}
+/* end logo img */
+/* start navigation */
+.navig {
+   float: right;
+   margin-top: 30px;
+}
+.navig ul {
+   text-decoration: none;
+}
+.navig ul li {
+   display: inline;
+   margin-left: 5rem ;
+   list-style-type: none;
+}
+.navig ul li a {
+   text-decoration: none;
+   font-size: 2rem;
+   color: rgb(112, 129, 129);
+}
+/* end navigation */
+
+.common-hr {
+   border: solid rgb(228, 221, 221) 1px;
+   border-bottom: none;
+   width: 100%;
+   margin: 30px auto;
+   clear: both;
+}
+/* start navigation 2*/
+.nav2nd {
+   float: left;
+   margin-top: 15px;
+
+}
+.nav2nd ul li {
+   display: inline;
+   margin-right: 8.5rem ;
+   list-style-type: none;
+   margin-left: 0;
+}
+.nav2nd ul li a {
+   text-decoration: none;
+   font-size: 1.5rem;
+   color: rgb(112, 129, 129);
+   text-transform: uppercase;
+}
+/* end navigation 2*/
+/* start search */
+
+.imgS {
+   display: inline;
+   margin-left: 135px;
+   margin-top: 8px;
+}
+.sBox {
+   float: right;
+   padding: 9px;
+   border: none;
+   outline: none;
+   font-size: 2rem;
+   margin-top: 0px;
+}
+/* end search */
+/* start navigation */
+.navN {
+   text-align: center;
+}
+.navN ul li {
+   display: inline;
+   margin-right: 0.7rem ;
+   list-style-type: none;
+   margin-left: 0;
+   padding: 5px;
+}
+.navN ul li a {
+   text-decoration: none;
+   color: rgb(112, 129, 129);
+   text-transform: uppercase;
+}
+/* end navigation */
+/* start section */
+span {
+   font-size: 2rem;
+   border: 1px solid rgba(220, 220, 220, 0.9);
+   padding: 7px 10px;
+   color: rgba(0, 0, 0, 0.);
+}
+.spLA {
+   background-color: rgba(134, 131, 131, 0.5);
+   border: none;
+   outline: none;
+   color: #fff;
+}
+.sp1 {
+   border-color: rgb(6, 6, 201);
+}
+.section2 {
+   margin-bottom: 100px;
+   margin-top: 50px;
+}
+/* end section */
+
+
+
+
+
+
+.content {
+   width: 100%;
+   
+}
+.content {
+   margin-top: 15px;
+}
+.leftCon {
+   width: 60%;
+   float: left;
+   height: 10%;
+}
+.leftConP {
+   width: 28%;
+}
+.leftDiv {
+   background-color: rgb(43, 129, 226);
+   padding: 28%;
+}
+.leftDiv {
+   background-color: rgb(43, 129, 226);
+   padding: 28%;
+}
+.leftDiv1 {
+   background-color: rgb(43, 129, 226);
+   padding: 28%;
+}
+.leftDiv2 {
+   background-color: rgb(226, 147, 43);
+   padding: 28%;
+}
+.leftDiv3 {
+   background-color: rgb(226, 43, 165);
+   padding: 28%;
+}
+.leftDiv1 h3 {
+   color: #fff;
+   font-size: 2rem;
+   text-align: center; 
+}
+.leftDiv2 h3 {
+   color: white;
+   font-size: 2rem;
+   text-align: center;   
+}
+.leftDiv3 h3 {
+   color: white;
+   font-size: 2rem;
+   text-align: center;   
+}
+
+
+
+
+
+.rightArt {
+   width: 100%;
+   bottom: 160px;
+   position: relative;
+}
+.rightArtinf {
+   width: 32%;
+
+}
+.rightArtSec {
+   font-size: 3rem;
+   float: right;
+   width: 65%;
+   text-align: justify;
+   overflow: hidden;
+}
+.rightArtSec h4 {
+   font-size: 2rem;
+   padding-bottom:7px;
+   float: left;
+   margin-bottom: 7px;
+}
+.rightArtSec p {
+   font-size: 2rem;
+   float: left;
+}
+.rightArtSec span {
+   font-size: 1.7rem;
+   border: none;
+   padding-top: 13px;
+   outline: none;
+   margin-left: 0px;
+   float: left;
+}
+
+.rightArtSec span date {
+   font-size: 1.7rem;
+}
+
+.rightArtSec span time {
+   font-size: 1.7rem;
+}
+
+.rightArtSec ul li {
+   display: inline;
+}
+
+.rightArt img {
+   width: 3%;
+   float: right;
+   margin-left: 3px;
+   margin-top: 18px;
+   padding-right: 5px;
+}
+.left-social-Icon ul li {
+   list-style-type: none;
+}
+.rightCon {
+   width: 25%;
+   float: right;
+}
+
+.rightConBar h3 {
+   font-size: 3rem;
+   padding-bottom: 30px;
+   margin-top: 60px;
+}
+.rightConBar ul {
+   list-style-type: none;
+}
+.rightConBar ul a {
+   text-decoration: none;
+   font-size: 2rem;
+   color: gray;
+}
+.Sbar {
+   outline: none;
+   margin-bottom: 15px;
+}
+
+
+
+
+
+
+/* start footer */
+.left-Sec1 {
+   float: left;
+}
+.left-Sec1 {
+   margin-top: 100px;
+}
+.right-Sec2 {
+}
+ 
+.left-Sec1 h2 {
+   font-size: 3rem;
+   margin-bottom: 0.7%;
+   letter-spacing: .3rem;
+   font-weight: normal;
+}
+.left-Sec1 nav {
+}
+.left-Sec1 nav ul {
+   list-style-type: none;
+}
+.left-Sec1 nav ul li {
+   text-decoration: none;
+   display: inline;
+}
+.left-Sec1 nav ul li a {
+   margin-right: 2%;
+   margin-left: 0%;
+}
+.left-Sec1 nav img {
+   width: 5%; 
+}
+.para {
+   float: left;
+   font-size: 1.8rem;
+   margin-top: 1.8rem;
+}
+.card {
+   border: 1px solid gainsboro;
+   margin-left: 70%;
+}
+.card h3 {
+   font-size: 2.6rem;
+   font-weight: normal;
+   color: rgb(49, 44, 44);
+   margin-left: 40px;
+   font-weight: bolder;
+   letter-spacing: .1.5rem;
+   padding: 3px;
+   margin-top: 20px;
+}
+.common-hr {
+   margin-bottom: 5px;
+}
+.card input {
+   padding: 3px;
+   font-size: 2rem;
+   border: none;
+   outline: none;
+   display: block;
+   margin-bottom: 15px;
+}
+.card button {
+   padding: 15px;
+   background-color: rgba(245, 12, 90, 0.7);
+   border: none;
+   color: #fff;
+   font-size: 2rem;
+   border-radius: 5px;
+   width: 75%;
+   margin-bottom: 30px;
+   margin-top: 5px;
+}
+.dev-clear {
+   clear: both;
+}
+/* end footer */
+
+
+
